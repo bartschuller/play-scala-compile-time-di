@@ -1,0 +1,3 @@
+import play.api.test.WithApplicationLoader
+
+class WithDepsApplicationLoader extends WithApplicationLoader(new MyApplicationLoader)
